@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+h1{
+	font-size: 50px;
+}
+h1 span{
+	color: #ffa500;
+}
+
+.flex-container{
+	display: flex;
+	padding-top: 40px;
+	
+}
+.half-width{
+	width: 50%;
+	padding-left: 5%;
+}
+.half-width img{
+	width:80%;
+}
+.btn {
+	text-decoration: none;
+	background-color: #FF6F51;
+	color: white;
+	padding: 10px 40px;
+	border-radius: 5px;
+	font-weight:700;
+	font-size: 16px ;
+	display: inline-block;
+}
+.btn:hover {
+	text-decoration: none;
+	background-color: #FF6F51;
+	color: Black;
+	box-shadow: 1px 1px 20px gray ;
+}
+.top-banner{
+	background-image: url(images/top-banner.png);
+	background-repeat: no-repeat;
+}
+.dream{
+	display: flex;
+	padding: 5%;
+	background-image: url(images/dream-bg.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	
+
+}
+.dream .half-width2{
+	width: 50%;
+
+}
+.dream img {
+	width: 80%;
+}
+.dream .btn2 {
+	text-decoration: none;
+	color: white;
+	background-color: #FF6F51;
+	padding: 10px 40px;
+	display: inline-block;
+	margin-top: 10px;
+	border-radius: 5px;
+	font-size: 20px;
+
+}
+.thirdflex{
+	display: flex;
+
+
+}
+.thirdflex .half-width3{
+	width:40%;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: justify;
+	box-shadow: 2px 2px 20px gray;
+	padding:20px 10px;
+	
+
+
+}
+
+.half-width3 h3{
+color: #FFA600;
+padding: 25px 0;
+}
+
+.half-width3 h2{
+font-size: 40px;
+font-weight: 700;
+
+
+
+}
+.half-width3 p{
+padding: 5px 0;
+padding: 25px 0;
+
+}
+.experince{
+	background-image: url(images/exp-bg.png);
+	background-repeat: no-repeat;background-position: left;
+}
+
+#first-developer{
+border-image:linear-gradient(red, orange);
+border-left: 7px solid;
+border-image-slice: 1;
+}
+#second-developer{
+border-image:linear-gradient(blue, green);
+border-left: 7px solid;
+border-image-slice: 1;
+}
+
+footer p{
+	text-align: center;
+	background-color: gray;
+	padding: 20px 0;
+}
